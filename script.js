@@ -2,7 +2,7 @@ let text;
 function func1(){
     document.querySelector(".previous-text").style.color = "black";
     text = document.querySelector("input").value;
-    document.querySelector(".previous-text").innerHTML = text;
+    document.querySelector(".previous-text").textContent = text;
     document.querySelector(".previous>img").style.display= "inline-block";
     document.querySelector(".previous").style.visibility = "visible";
     // console.log("HI");
