@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat&family=Open+Sans:wght@500&family=Poppins&family=Roboto+Flex:opsz,wght@8..144,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+        <h1>Start the conversation!</h1>
+      <div class="chat">
+         <!-- maxlength="160" -->
+        <input maxlength="160" type="text">
+        <img src="./images/more.png" alt="" height="30" onclick="func1()"/>
+      </div>
+      <div class="previous"> 
+        <p class="previous-text"></p>
+        <!-- <img src="./images/editing.png" alt="" height="30" onclick="update()"/> -->
+        <img src="./images/delete.png" alt="" height="30" onclick="del()"/>
+      </div>
+    </div>
+  </body>
+</html>
